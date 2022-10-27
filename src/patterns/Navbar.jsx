@@ -8,7 +8,10 @@ const menu = ["Home", "Sobre nós", "Clientes", "Contato"];
 
 const Navbar = () => {
   return (
-    <div className="py-4 flex items-center justify-between px-6">
+    <div
+      className="py-4 flex items-center justify-between px-6
+    bg-gradient-to-t from-[#EDEDED] to-[#AABEF2]"
+    >
       <div className="md:hidden">
         <List size={28} />
       </div>
@@ -20,8 +23,8 @@ const Navbar = () => {
         <ul className="flex items-center justify-center gap-6">
           {menu.map((item, index) => {
             return (
-              <a href="#">
-                <li className="p-4" key={index}>
+              <a href="#" key={index}>
+                <li className="p-4">
                   <Text weight={400} size={"16px"} leading={"20px"}>
                     {item}
                   </Text>

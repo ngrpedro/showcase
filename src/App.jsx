@@ -6,7 +6,7 @@ function App() {
     <div>
       <Navbar />
       <div>
-        <img src={heromain} alt="" className="w-screen h-screen object-cover" />
+        <img src={heromain} alt="" className="w-screen h-screen object-cover opacity-30" />
       </div>
     </div>
   );
