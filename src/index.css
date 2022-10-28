@@ -6,3 +6,43 @@ body,
 * {
   font-family: "Lexend", sans-serif;
 }
+
+.bgImageHero {
+  background-image: url("./assets/heromain.png");
+}
+
+.box-shadow-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-type-3xl {
+  @apply font-bold text-[48px] leading-[60px];
+}
+
+.text-type-2xl {
+  @apply font-bold text-[40px] leading-[50px];
+}
+
+.text-type-xl {
+  @apply font-bold text-[32px] leading-[40px];
+}
+
+.text-type-md {
+  @apply font-bold text-[24px] leading-[30px];
+}
+
+.text-type-sm {
+  @apply font-normal text-base leading-6;
+}
+
+.button-type-primary {
+  @apply bg-[#546BA6] p-4 w-full rounded-[10px] 
+          shadow-sm text-[#EDEDED] box-shadow-button
+          hover:bg-[#7185B9]  transition-colors;
+}
+
+.button-type-secondary {
+  @apply bg-[#EDEDED] p-4 w-full rounded-[10px] 
+          shadow-sm text-[#546BA6] box-shadow-button
+          hover:bg-[#FAF2F2]  transition-colors;
+}

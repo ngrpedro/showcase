@@ -1,13 +1,11 @@
-import heromain from "./assets/heromain.png";
 import Navbar from "./patterns/Navbar";
+import Hero from "./sessions/Hero";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div>
-        <img src={heromain} alt="" className="w-screen h-screen object-cover opacity-30" />
-      </div>
+      <Hero />
     </div>
   );
 }

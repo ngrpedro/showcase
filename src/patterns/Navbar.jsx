@@ -20,20 +20,20 @@ const Navbar = () => {
 
       <div></div>
       <div className=" hidden md:flex items-center justify-center gap-12">
-        <ul className="flex items-center justify-center gap-6">
+        <ul className="flex items-center justify-between gap-6">
           {menu.map((item, index) => {
             return (
               <a href="#" key={index}>
                 <li className="p-4">
-                  <Text weight={400} size={"16px"} leading={"20px"}>
-                    {item}
-                  </Text>
+                  <Text type="text-type-sm">{item}</Text>
                 </li>
               </a>
             );
           })}
         </ul>
-        <Button>Começar</Button>
+      </div>
+      <div>
+        <Button type={"button-type-primary"}>Começar</Button>
       </div>
     </div>
   );
