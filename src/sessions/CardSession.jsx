@@ -17,7 +17,7 @@ const CardSession = () => {
     >
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6 cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <Question size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
@@ -30,7 +30,7 @@ const CardSession = () => {
 
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6  cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <FileDoc size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
@@ -43,7 +43,7 @@ const CardSession = () => {
 
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6  cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <CheckCircle size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
@@ -57,7 +57,7 @@ const CardSession = () => {
 
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6  cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <CalendarPlus size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
@@ -71,7 +71,7 @@ const CardSession = () => {
 
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6  cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <ChartBar size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
@@ -85,7 +85,7 @@ const CardSession = () => {
 
       <div
         className="flex flex-col items-center justify-center 
-                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
+                  text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6  cursor-pointer bg-white hover:bg-transparent hover:shadow-lg transition-colors"
       >
         <SketchLogo size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
