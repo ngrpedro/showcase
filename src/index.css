@@ -9,6 +9,20 @@ body,
 
 .bgImageHero {
   background-image: url("./assets/heromain.png");
+  height: 26.8rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ededed;
+}
+
+@media (max-width: 768px) {
+  .bgImageHero {
+    background-image: url("./assets/heromain.png");
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ededed;
+  }
 }
 
 .box-shadow-button {
@@ -16,7 +30,8 @@ body,
 }
 
 .text-type-3xl {
-  @apply font-bold text-[48px] leading-[60px];
+  @apply font-bold text-[22px] leading-[28px] 
+        md:text-[48px] md:leading-[60px];
 }
 
 .text-type-2xl {
@@ -32,7 +47,8 @@ body,
 }
 
 .text-type-sm {
-  @apply font-normal text-base leading-6;
+  @apply font-normal text-[10px] leading-[12px]
+          md:text-base md:leading-6;
 }
 
 .button-type-primary {

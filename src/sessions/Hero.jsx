@@ -5,12 +5,14 @@ import Text from "../components/Text";
 
 const Hero = () => {
   return (
-    <div className="bgImageHero flex items-center justify-center gap-16 py-8">
+    <div className="bgImageHero flex flex-col md:flex-row 
+                    items-center justify-center gap-16 py-8 px-6">
       <div className="space-y-[32px]">
         <div className="max-w-[474px] space-y-[16px]">
           <Text type="text-type-3xl">
             A gente organiza sua vida{" "}
-            <span className="text-[#546BA6]">financeira</span>
+            <span className="text-[#546BA6]">financeira</span>{" "}
+            <span className="inline md:hidden">:)</span>
           </Text>
           <div className="max-w-md">
             <Text type="text-type-sm">
@@ -25,8 +27,8 @@ const Hero = () => {
           <Button type={"button-type-secondary"}>Já tenho cadastro</Button>
         </div>
       </div>
-      <div>
-        <img src={moca} alt="" />
+      <div className="relative">
+        <img src={moca} alt=""  className=""/>
       </div>
     </div>
   );
