@@ -14,10 +14,10 @@ const InfoSession02 = () => {
         />
         <a
           href="#"
-          className="lg:hidden flex items-center justify-start gap-6
+          className="lg:hidden flex items-center justify-start gap-6 group hover:text-[#7185B9]
                       text-[#546BA6] font-bold text-lg leading-[30px]"
         >
-          <div className="bg-[#546BA6] rounded-full p-2">
+          <div className="bg-[#546BA6] rounded-full p-2 group-hover:bg-[#7185B9] transition-colors">
             <Play size={28} className="text-white" />
           </div>
           <span>Confira nosso vídeo Institucional</span>
