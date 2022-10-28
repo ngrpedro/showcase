@@ -59,7 +59,7 @@ body {
 }
 
 .text-type-sm {
-  @apply font-normal text-[16px] leading-[18px]
+  @apply font-normal text-[16px] leading-[20px]
           md:text-base md:leading-6;
 }
 
