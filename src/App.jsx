@@ -1,4 +1,5 @@
 import Navbar from "./patterns/Navbar";
+import CardSession from "./sessions/CardSession";
 import Hero from "./sessions/Hero";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      teste
+      <CardSession />
     </div>
   );
 }

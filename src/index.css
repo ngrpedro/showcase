@@ -29,6 +29,11 @@ body,
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.card-border {
+  border: 1px solid #546ba6;
+  filter: drop-shadow(-2px -1px 7px rgba(246, 130, 112, 0.25));
+}
+
 .text-type-3xl {
   @apply font-bold text-[22px] leading-[28px] 
         md:text-[48px] md:leading-[60px];
@@ -43,7 +48,8 @@ body,
 }
 
 .text-type-md {
-  @apply font-bold text-[24px] leading-[30px];
+  @apply font-bold text-[12px] leading-[15px]
+        md:text-[24px] md:leading-[30px];
 }
 
 .text-type-sm {
