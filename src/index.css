@@ -50,11 +50,11 @@ body {
 }
 
 .text-type-xl {
-  @apply font-bold text-[32px] leading-[40px];
+  @apply font-bold text-[28px] leading-[34px];
 }
 
 .text-type-md {
-  @apply font-bold text-[12px] leading-[15px]
+  @apply font-bold text-[18px] leading-[22px]
         md:text-[24px] md:leading-[30px];
 }
 
