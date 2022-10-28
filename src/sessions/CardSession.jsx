@@ -1,11 +1,18 @@
-import { CalendarPlus, ChartBar, CheckCircle, FileDoc, Question, SketchLogo } from "phosphor-react";
+import {
+  CalendarPlus,
+  ChartBar,
+  CheckCircle,
+  FileDoc,
+  Question,
+  SketchLogo
+} from "phosphor-react";
 import React from "react";
 import Text from "../components/Text";
 
 const CardSession = () => {
   return (
     <div
-      className="bg-[#EDEDED] py-16 px-6 grid grid-cols-2 
+      className="py-16 px-6 md:p-16 grid grid-cols-2 
                       lg:grid-cols-3 gap-4 md:gap-14"
     >
       <div
@@ -52,9 +59,7 @@ const CardSession = () => {
         className="flex flex-col items-center justify-center 
                   text-center gap-2 md:gap-6 card-border px-2 py-4 md:p-6"
       >
-        <div className="rounded-full p-2 bg-[#f6bab0] shadow-md">
-          <CalendarPlus size={28} weight="bold" />
-        </div>
+        <CalendarPlus size={28} weight="bold" />
         <div className="space-y-2 md:space-y-4">
           <Text type="text-type-md">Planejamos metas</Text>
           <Text type="text-type-sm">

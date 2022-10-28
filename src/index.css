@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body,
-* {
+body {
   font-family: "Lexend", sans-serif;
+  background-color: #ededed;
 }
 
 .bgImageHero {
@@ -12,7 +12,6 @@ body,
   height: 26.8rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ededed;
 }
 
 @media (max-width: 768px) {
@@ -21,7 +20,6 @@ body,
     height: 88vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #ededed;
   }
 }
 
@@ -29,9 +27,17 @@ body,
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.box-shadow-image-right {
+  box-shadow: 17px 17px 1px 5px #546ba6;
+}
+
+.box-shadow-image-left {
+  box-shadow: -17px 17px 1px 5px #546ba6;
+}
+
 .card-border {
   border: 1px solid #546ba6;
-  filter: drop-shadow(-2px -1px 7px rgba(246, 130, 112, 0.25));
+  box-shadow: -2px -1px 7px rgb(246 130 112 / 25%);
 }
 
 .text-type-3xl {
