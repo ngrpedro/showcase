@@ -41,7 +41,7 @@ body {
 }
 
 .text-type-3xl {
-  @apply font-bold text-[22px] leading-[28px] 
+  @apply font-bold text-[34px] leading-[46px] 
         md:text-[48px] md:leading-[60px];
 }
 
