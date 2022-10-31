@@ -1,6 +1,6 @@
 import { Play } from "phosphor-react";
 import React from "react";
-import man from "../../assets/business-man.png";
+import man from "../../assets/organizze/business-man.png";
 import Text from "../../components/Text";
 
 const InfoSesison = () => {

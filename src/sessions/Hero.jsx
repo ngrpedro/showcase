@@ -1,5 +1,5 @@
 import React from "react";
-import moca from "../assets/moca.png";
+import moca from "../assets/organizze/moca.png";
 import Button from "../components/Button";
 import Text from "../components/Text";
 

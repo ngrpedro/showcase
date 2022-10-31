@@ -1,5 +1,5 @@
 import React from "react";
-import ctasession from "../assets/ctasession.png";
+import ctasession from "../assets/organizze/ctasession.png";
 import Button from "../components/Button";
 import Text from "../components/Text";
 

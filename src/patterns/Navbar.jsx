@@ -1,6 +1,6 @@
 import { List } from "phosphor-react";
 import React from "react";
-import Logo from "../assets/logo";
+import Logo from "../assets/organizze/logo";
 import Button from "../components/Button";
 import Text from "../components/Text";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../../assets/contact.png";
+import contact from "../../assets/organizze/contact.png";
 import Button from "../../components/Button";
 import Text from "../../components/Text";
 
