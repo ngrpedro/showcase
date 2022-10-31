@@ -6,7 +6,7 @@ const menu = ["Termos", "Privacidade", "Status", "Segurança"];
 const Footer = () => {
   return (
     <div className="py-8 px-6 h-36 w-full bg-gradient-to-b from-[#EDEDED] to-[#AABEF2]">
-      <ul className="flex items-center justify-start gap-6">
+      <ul className="flex flex-wrap items-center justify-start ">
         {menu.map((item, index) => {
           return (
             <a href="#" key={index}>

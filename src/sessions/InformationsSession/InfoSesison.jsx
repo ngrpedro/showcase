@@ -32,12 +32,9 @@ const InfoSesison = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-10">
-        <img
-          src={man}
-          alt=""
-          className="max-w-md min:max-w-lg m-auto box-shadow-image-right"
-        />
-
+        <div className="mr-[17px]">
+          <img src={man} alt="" className="w-full box-shadow-image-right" />
+        </div>
         <a
           href="#"
           className="lg:hidden flex items-center justify-start gap-6
