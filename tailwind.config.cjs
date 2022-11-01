@@ -6,6 +6,10 @@ module.exports = {
       screens: {
         min: "510px",
       },
+
+      backgroundImage: {
+        "gymonebg": "url('/assets/gymone/mainbg.png')"
+      }
     },
   },
   plugins: [],
