@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../patterns/Navbar";
+import Navbar from "../patterns/Organizze/Navbar";
 import CardSession from "../sessions/Organizze/CardSession";
 import Contact from "../sessions/Organizze/ContactUs/Contact";
 import CTASession from "../sessions/Organizze/CTASession";

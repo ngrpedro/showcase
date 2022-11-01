@@ -1,8 +1,8 @@
 import { List } from "phosphor-react";
 import React from "react";
-import Logo from "../assets/organizze/logo";
-import Button from "../components/Button";
-import Text from "../components/Text";
+import Logo from "../../assets/organizze/logo";
+import Button from "../../components/Button";
+import Text from "../../components/Text";
 
 const menu = ["Home", "Sobre nós", "Clientes", "Contato"];
 
