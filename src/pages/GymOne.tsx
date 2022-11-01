@@ -71,50 +71,53 @@ const GymOne = () => {
             absolute top-64 right-0 w-64"
           />
         </div>
-        <div className="space-y-8">
-          <div className="relative space-y-5">
-            <div className="w-12 h-12 bg-yellow-300 rounded-full absolute top-[-6px] left-[-8px] -z-10"></div>
-            <h2 className="font-bold text-2xl">Adnulla sint id qui nulla.</h2>
-            <p className="font-normal text-sm">
-              Aliqua fugiat pariatur reprehenderit nostrud cupidatat ut commodo
-              in reprehenderit exercitation sint mollit aliqua aliqua. Quis
-              eiusmod ipsum dolor exercitation. Ea nostrud labore aliquip amet.
-            </p>
-          </div>
+        <div className="flex flex-col items-center justify-between">
+          <div className="space-y-10">
+            <div className="relative space-y-5">
+              <div className="w-12 h-12 bg-yellow-300 rounded-full absolute top-[-6px] left-[-8px] -z-10"></div>
+              <h2 className="font-bold text-2xl">Adnulla sint id qui nulla.</h2>
+              <p className="font-normal text-sm">
+                Aliqua fugiat pariatur reprehenderit nostrud cupidatat ut
+                commodo in reprehenderit exercitation sint mollit aliqua aliqua.
+                Quis eiusmod ipsum dolor exercitation. Ea nostrud labore aliquip
+                amet.
+              </p>
+            </div>
 
-          <ul
-            className="font-normal text-sm list-disc 
+            <ul
+              className="font-normal text-sm list-disc 
               marker:text-yellow-500 list-inside space-y-2"
-          >
-            <li>Irure magna amet aliqua.</li>
-            <li>Cillum incididunt non mollit proident sit.</li>
-            <li>Ieprehenderit deserunt excepteur do est nostrud.</li>
-            <li>Sit sit cupidatat nostrud.</li>
-            <li>Veniam cupidatat culpa mollit.</li>
-          </ul>
+            >
+              <li>Irure magna amet aliqua.</li>
+              <li>Cillum incididunt non mollit proident sit.</li>
+              <li>Ieprehenderit deserunt excepteur do est nostrud.</li>
+              <li>Sit sit cupidatat nostrud.</li>
+              <li>Veniam cupidatat culpa mollit.</li>
+            </ul>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="flex flex-col items-center justify-center gap-2 group">
+              <p className="group-hover:text-yellow-600">
+                Mollit ut ut ipsum cupid.
+              </p>
               <img
                 src={img05}
                 alt=""
                 className="rounded-xl border-4 cursor-pointer transition-all 
                     group-hover:border-yellow-500"
               />
-              <p className="group-hover:text-yellow-600">
-                Mollit ut ut ipsum cupid.
-              </p>
             </div>
             <div className="flex flex-col items-center justify-center gap-2 group">
+              <p className="group-hover:text-yellow-600">
+                Non dolor esse ipsum.
+              </p>
               <img
                 src={img04}
                 alt=""
                 className="rounded-xl border-4 cursor-pointer transition-all 
                     group-hover:border-yellow-500"
               />
-              <p className="group-hover:text-yellow-600">
-                Non dolor esse ipsum.
-              </p>
             </div>
           </div>
         </div>
