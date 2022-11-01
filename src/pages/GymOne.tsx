@@ -41,34 +41,34 @@ const GymOne = () => {
             className="border border-yellow-700 text-yellow-600
                             bg-black py-4 px-16 rounded-xl 
                             hover:text-black hover:bg-yellow-700 
-                            transition-colors"
+                            transition-colors ease-in-out delay-150"
           >
             Start Now
           </button>
         </div>
       </header>
 
-      <section className="p-6 md:p-16 grid grid-cols-1 md:grid-cols-2  md:gap-10">
+      <section className="p-6 md:p-28 grid grid-cols-1 md:grid-cols-2  md:gap-10">
         <div className="relative">
           <img
             src={img01}
             alt=""
-            className="rounded-xl max-w-[34rem] 
-             m-auto max-h-[42rem] object-cover"
+            className="rounded-xl lg:max-w-[34rem] 
+             max-h-[42rem] object-cover"
           />
 
           <img
             src={img02}
             alt=""
             className="rounded-xl border-2 border-[#f9f9f9] 
-            absolute top-10 right-0 w-64"
+            absolute top-10 right-2 md:right-0 w-64"
           />
 
           <img
             src={img03}
             alt=""
             className="rounded-xl border-2 border-[#f9f9f9] 
-            absolute top-64 right-0 w-64"
+            absolute top-64 right-2 md:right-0 w-64"
           />
         </div>
         <div className="flex flex-col items-center justify-between">
@@ -98,28 +98,278 @@ const GymOne = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="flex flex-col items-center justify-center gap-2 group">
-              <p className="group-hover:text-yellow-600">
+              <p className="group-hover:text-yellow-600 ease-in-out delay-150">
                 Mollit ut ut ipsum cupid.
               </p>
               <img
                 src={img05}
                 alt=""
                 className="rounded-xl border-4 cursor-pointer transition-all 
-                    group-hover:border-yellow-500"
+                    group-hover:border-yellow-500 ease-in-out delay-150"
               />
             </div>
             <div className="flex flex-col items-center justify-center gap-2 group">
-              <p className="group-hover:text-yellow-600">
+              <p className="group-hover:text-yellow-600 ease-in-out delay-150">
                 Non dolor esse ipsum.
               </p>
               <img
                 src={img04}
                 alt=""
                 className="rounded-xl border-4 cursor-pointer transition-all 
-                    group-hover:border-yellow-500"
+                    group-hover:border-yellow-500 ease-in-out delay-150"
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="p-6 md:p-28 bg-gray-900 text-white flex flex-col md:flex-row items-center justify-center gap-10">
+        <section className="cursor-pointer mb-4 w-72 border-t-8 px-2 py-10 bg-white dark:bg-gray-800 rounded border-yellow-600 border-2">
+          <section className="w-full">
+            <header className="text-3xl text-center md:mt-5 text-black">
+              Medium
+            </header>
+            <header className="w-full md:flex justify-center text-center mb-2">
+              <span className="text-6xl text-yellow-600">35</span>
+              <span className="text-2xl text-black ml-5">$</span>
+              <span className="line-through text-2xl text-black">100</span>
+            </header>
+            <ul className="mt-5 p-1 text-md text-gray-600 dark:text-gray-200">
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Laboris minim culpa ex nisi.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Labore quis exercitation.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  className="h-6 w-6 mr-2"
+                  fill="black"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Veniam consec adipisicin.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  className="h-6 w-6 mr-2"
+                  fill="black"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Eu aute labore.
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section className="cursor-pointer mb-4 w-72 border-t-8 px-2 py-10 bg-white dark:bg-gray-800 rounded border-yellow-400 border-2">
+          <section className="w-full">
+            <header className="text-3xl text-center md:mt-5 text-black">
+              Pro
+            </header>
+            <header className="w-full md:flex justify-center text-center mb-2">
+              <span className="text-6xl text-yellow-400">50</span>
+              <span className="text-2xl text-black ml-5">$</span>
+              <span className="line-through text-2xl text-black">150</span>
+            </header>
+            <ul className="mt-5 p-1 text-md text-gray-600 dark:text-gray-200">
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Duis esse quis amet elit in.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Minim id laborum tempor id.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Eu est proident elit.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Mollit dolor esse ex eu.
+              </li>
+            </ul>
+          </section>
+        </section>
+
+        <section className="cursor-pointer mb-4 w-72 border-t-8 px-2 py-10 bg-white dark:bg-gray-800 rounded border-yellow-600 border-2">
+          <section className="w-full">
+            <header className="text-3xl text-center md:mt-5 text-black">
+              Kids
+            </header>
+            <header className="w-full md:flex justify-center text-center mb-2">
+              <span className="text-6xl text-yellow-600">15</span>
+              <span className="text-2xl text-black ml-5">$</span>
+              <span className="line-through text-2xl text-black">80</span>
+            </header>
+            <ul className="mt-5 p-1 text-md text-gray-600 dark:text-gray-200">
+              <li className="flex mb-1 py-1">
+                <svg
+                  className="h-6 w-6 mr-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  stroke="currentColor"
+                  fill="#ffc41e"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Non adipisicing sint officia.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  className="h-6 w-6 mr-2"
+                  fill="black"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Veniam elit ad ipsum in.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  className="h-6 w-6 mr-2"
+                  fill="black"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Quis ut occaecat elit ut est.
+              </li>
+              <li className="flex mb-1 py-1">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="6"
+                  height="6"
+                  className="h-6 w-6 mr-2"
+                  fill="black"
+                  viewBox="0 0 1792 1792"
+                >
+                  <path d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z"></path>
+                </svg>
+                Consequat exercitation.
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+
+      <section className="py-6 md:py-28">
+        <div className="grid grid-cols-5 items-center justify-between gap-10">
+          <img
+            src={img03}
+            alt=""
+            className="h-[10rem] object-cover w-full rounded-lg 
+                     hover:scale-[1.15] transition-all ease-in-out delay-150 
+          "
+          />
+          <img
+            src={img02}
+            alt=""
+            className="h-[15rem] object-cover w-full rounded-lg 
+                     hover:scale-[1.15] transition-all ease-in-out delay-150 
+          "
+          />
+          <img
+            src={img01}
+            alt=""
+            className="h-[20rem] object-cover w-full rounded-lg 
+                     hover:scale-[1.15] transition-all ease-in-out delay-150 
+          "
+          />
+          <img
+            src={img04}
+            alt=""
+            className="h-[15rem] object-cover w-full rounded-lg 
+                     hover:scale-[1.15] transition-all ease-in-out delay-150 
+          "
+          />
+          <img
+            src={img05}
+            alt=""
+            className="h-[10rem] object-cover w-full rounded-lg 
+                     hover:scale-[1.15] transition-all ease-in-out delay-150 
+          "
+          />
         </div>
       </section>
     </div>
