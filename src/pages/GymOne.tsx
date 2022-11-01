@@ -16,7 +16,7 @@ const GymOne = () => {
       >
         <div className="text-yellow-500">
           {/* <img src={Muscle} alt="" className="w-10" />  */}
-          Logo
+          <Link to="/">Logo</Link>
         </div>
         <div className="hidden md:block">
           <ul className="flex items-center gap-8 font-bold text-lg text-yellow-500">

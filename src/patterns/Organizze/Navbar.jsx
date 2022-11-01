@@ -1,5 +1,6 @@
 import { List } from "phosphor-react";
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/organizze/logo";
 import Button from "../../components/Button";
 import Text from "../../components/Text";
@@ -15,8 +16,10 @@ const Navbar = () => {
       <div className="md:hidden">
         <List size={28} />
       </div>
+<Link to="/">
 
       <Logo width={120} />
+</Link>
 
       <div></div>
       <div className=" hidden md:flex items-center justify-center gap-12">
