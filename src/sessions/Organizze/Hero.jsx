@@ -5,7 +5,7 @@ import Text from "../../components/Text";
 
 const Hero = () => {
   return (
-    <div className="bgImageHero flex flex-col md:flex-row 
+    <div className="bgImageHero bg-[#ebebeb] flex flex-col md:flex-row 
                     items-center justify-center gap-16 py-8 px-6">
       <div className="space-y-[32px]">
         <div className="max-w-[474px] space-y-[16px]">
