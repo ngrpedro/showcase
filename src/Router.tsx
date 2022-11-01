@@ -7,7 +7,10 @@ import Organizze from "./pages/Organizze";
 const Router = () => {
   return (
     <div>
-      <nav className="py-8  px-6 md:px-16 flex items-center justify-between">
+      <nav
+        className="py-8 px-6 md:px-16 flex items-center justify-between
+      bg-white"
+      >
         <Link to="/">
           <h1>Home</h1>
         </Link>
