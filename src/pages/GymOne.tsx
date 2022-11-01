@@ -1,4 +1,6 @@
+import { GithubLogo, LinkedinLogo } from "phosphor-react";
 import React from "react";
+import { Link } from "react-router-dom";
 import img01 from "../assets/gymone/img01.jpg";
 import img02 from "../assets/gymone/img02.jpg";
 import img03 from "../assets/gymone/img03.jpg";
@@ -372,6 +374,21 @@ const GymOne = () => {
           />
         </div>
       </section>
+
+      <footer
+        className="py-6 md:py-16 bg-gray-900 text-white flex 
+              flex-col items-center justify-center gap-4"
+      >
+        <p className="text-[14px]">Powered by:: Pedro Soares</p>
+        <div className="flex items-center justify-center gap-5">
+          <Link to="https://www.linkedin.com/in/pedro-nogueira399/">
+            <LinkedinLogo size={28} />
+          </Link>
+          <Link to="https://github.com/ngrpedro">
+            <GithubLogo size={28} />
+          </Link>
+        </div>
+      </footer>
     </div>
   );
 };
