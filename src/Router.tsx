@@ -18,8 +18,12 @@ const Router = () => {
         <div className="flex gap-10">
           <Link to="/organizze">Organizze</Link>
           <Link to="/gymone">GynOne</Link>
-          <a href="https://greenlp-react.vercel.app/" target="_blanck">
-            GreenOne <ArrowSquareOut size={28} />
+          <a
+            href="https://greenlp-react.vercel.app/"
+            target="_blanck"
+            className="flex items-center justify-center gap-2"
+          >
+            GreenOne <ArrowSquareOut size={18} />
           </a>
         </div>
       </nav>
