@@ -1,7 +1,7 @@
 import React from "react";
-import ctasession from "../assets/organizze/ctasession.png";
-import Button from "../components/Button";
-import Text from "../components/Text";
+import ctasession from "../../assets/organizze/ctasession.png";
+import Button from "../../components/Button";
+import Text from "../../components/Text";
 
 const CTASession = () => {
   return (

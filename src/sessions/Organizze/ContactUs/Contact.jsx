@@ -1,7 +1,7 @@
 import React from "react";
-import contact from "../../assets/organizze/contact.png";
-import Button from "../../components/Button";
-import Text from "../../components/Text";
+import contact from "../../../assets/organizze/contact.png";
+import Button from "../../../components/Button";
+import Text from "../../../components/Text";
 
 const Contact = () => {
   return (

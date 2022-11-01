@@ -1,7 +1,7 @@
 import React from "react";
-import moca from "../assets/organizze/moca.png";
-import Button from "../components/Button";
-import Text from "../components/Text";
+import moca from "../../assets/organizze/moca.png";
+import Button from "../../components/Button";
+import Text from "../../components/Text";
 
 const Hero = () => {
   return (
