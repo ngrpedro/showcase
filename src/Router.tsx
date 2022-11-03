@@ -1,6 +1,5 @@
-import { ArrowSquareOut } from "phosphor-react";
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import GymOne from "./pages/GymOne";
 import Home from "./pages/Home";
 import Organizze from "./pages/Organizze";
@@ -8,7 +7,7 @@ import Organizze from "./pages/Organizze";
 const Router = () => {
   return (
     <div>
-      <nav
+      {/* <nav
         className="py-8 px-6 md:px-16 flex items-center justify-between
       bg-white"
       >
@@ -16,7 +15,7 @@ const Router = () => {
           <h1>Home</h1>
         </Link>
         <div className="flex gap-10">
-          <Link to="/organizze" target={"_blank"}>Organizze</Link>
+          <Link to="/organizze">Organizze</Link>
           <Link to="/gymone">GynOne</Link>
           <a
             href="https://greenlp-react.vercel.app/"
@@ -26,7 +25,7 @@ const Router = () => {
             GreenOne <ArrowSquareOut size={18} />
           </a>
         </div>
-      </nav>
+      </nav> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/organizze" element={<Organizze />} />
