@@ -16,7 +16,7 @@ const Router = () => {
           <h1>Home</h1>
         </Link>
         <div className="flex gap-10">
-          <Link to="/organizze">Organizze</Link>
+          <Link to="/organizze" target={"_blank"}>Organizze</Link>
           <Link to="/gymone">GynOne</Link>
           <a
             href="https://greenlp-react.vercel.app/"
